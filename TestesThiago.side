@@ -1,0 +1,526 @@
+{
+  "id": "0af55807-6d30-4a9d-8c63-2a132d85cd7b",
+  "version": "2.0",
+  "name": "TestesThiago",
+  "url": "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf?",
+  "tests": [{
+    "id": "a5d2d779-91f8-4e22-ade2-5cc8527aa2b1",
+    "name": "testeAcerto",
+    "commands": [{
+      "id": "cb584aa0-5c1c-4dae-a04e-46cb2701aa77",
+      "comment": "",
+      "command": "open",
+      "target": "/crm/paginaFaleConosco.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b192493-5c7c-4026-b99e-284931b3ed04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1e8a42b-6173-4e19-b903-ba956e3a06ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:radioTiposSolicitacoes:0",
+      "targets": [
+        ["id=j_idt24:radioTiposSolicitacoes:0", "id"],
+        ["name=j_idt24:radioTiposSolicitacoes", "name"],
+        ["css=#j_idt24\\3AradioTiposSolicitacoes\\3A 0", "css:finder"],
+        ["xpath=//input[@id='j_idt24:radioTiposSolicitacoes:0']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:radioTiposSolicitacoes']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84b247b3-0fa5-46b5-a37a-6cadca7cfcc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abbad0ee-4013-435f-8b02-1ba9bc4a98f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "Robertin"
+    }, {
+      "id": "a8f5024b-b87c-4735-bf08-ccef462f636b",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c33789-0f44-4a77-945e-fc386dd8be9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "robertin@gmail.br"
+    }, {
+      "id": "2f91f12d-2406-40e0-8d29-4c4e94645109",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:telefone",
+      "targets": [
+        ["id=j_idt24:telefone", "id"],
+        ["name=j_idt24:telefone", "name"],
+        ["css=#j_idt24\\3Atelefone", "css:finder"],
+        ["xpath=//input[@id='j_idt24:telefone']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2824741-306a-4956-9811-fc1fc8c36039",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90a84110-cc10-4e44-800f-94d2afe45607",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [],
+      "value": "label=Atendimento"
+    }, {
+      "id": "8741f1ee-2d23-497d-aaf1-c170952bfb80",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b33e53-b69b-43e0-b80a-06b39ce99674",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c9c015-64b0-4507-8be4-96bc9ccde410",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:titulo",
+      "targets": [
+        ["id=j_idt24:titulo", "id"],
+        ["name=j_idt24:titulo", "name"],
+        ["css=#j_idt24\\3Atitulo", "css:finder"],
+        ["xpath=//input[@id='j_idt24:titulo']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "titulo bom"
+    }, {
+      "id": "0ee7f430-f045-4d66-9eb2-8688dca25059",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ef4fa1-9d6d-4141-bb8c-bf561f4ece9a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17ed651-c340-4297-af05-cb20336d7400",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_idt24\\3Agrid > tbody",
+      "targets": [
+        ["css=#j_idt24\\3Agrid > tbody", "css:finder"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8886b192-1b65-41b8-8979-3fa691db0751",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "um belo texto descritivo"
+    }, {
+      "id": "107a38e9-5f98-4d02-841e-3850090b1cea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text:nth-child(1)",
+      "targets": [
+        ["css=.ui-button-text:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='j_idt24:j_idt85']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea767692-a281-489a-90df-cd6762059ce2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2) > span", "css:finder"],
+        ["xpath=//table[@id='j_idt30:panelDialogo1']/tbody/tr[2]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b1e73c0-1cf8-4487-9d24-47989c6bfb73",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2) > span",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2) > span", "css:finder"],
+        ["xpath=//table[@id='j_idt30:panelDialogo1']/tbody/tr[2]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbdbf131-2e7b-4418-a037-89fc84a4e9f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-panel-title > div",
+      "targets": [
+        ["css=.ui-panel-title > div", "css:finder"],
+        ["xpath=//div[@id='j_idt30:painelInterno_header']/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a025342-e10d-4a4c-b319-d35ec3391de7",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt30:painelInterno_header",
+      "targets": [
+        ["id=j_idt30:painelInterno_header", "id"],
+        ["css=#j_idt30\\3ApainelInterno_header", "css:finder"],
+        ["xpath=//div[@id='j_idt30:painelInterno_header']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt30:painelInterno']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2172e496-5405-496e-89ad-d40d93d5576e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ui-panel-title > div",
+      "targets": [
+        ["css=.ui-panel-title > div", "css:finder"],
+        ["xpath=//div[@id='j_idt30:painelInterno_header']/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": "Informações do Atendimento"
+    }]
+  }, {
+    "id": "97f80fd0-85a2-4c18-8b8a-87917355fb66",
+    "name": "testeErro",
+    "commands": [{
+      "id": "16924445-c462-45c0-b8b2-e2ead73ebc18",
+      "comment": "",
+      "command": "open",
+      "target": "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1afd1eba-dda9-4312-b3f6-e66c32b1461e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c84c1876-6bdf-48d4-aea9-7a80c0c37583",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:radioTiposSolicitacoes:2",
+      "targets": [
+        ["id=j_idt24:radioTiposSolicitacoes:2", "id"],
+        ["css=#j_idt24\\3AradioTiposSolicitacoes\\3A 2", "css:finder"],
+        ["xpath=//input[@id='j_idt24:radioTiposSolicitacoes:2']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:radioTiposSolicitacoes']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "108273a1-5012-4807-ae86-f4c787ceffaa",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c30f02ca-b766-4e5f-87b8-0098b8e5cfe9",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:nome",
+      "targets": [
+        ["id=j_idt24:nome", "id"],
+        ["name=j_idt24:nome", "name"],
+        ["css=#j_idt24\\3Anome", "css:finder"],
+        ["xpath=//input[@id='j_idt24:nome']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[2]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": "Carlos"
+    }, {
+      "id": "c65b179e-bed5-468c-8e3e-9fb5cb60b1c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4165e834-f5a5-44f7-9690-7590e9689e77",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:email",
+      "targets": [
+        ["id=j_idt24:email", "id"],
+        ["name=j_idt24:email", "name"],
+        ["css=#j_idt24\\3A email", "css:finder"],
+        ["xpath=//input[@id='j_idt24:email']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[3]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "carlos@gmail.br"
+    }, {
+      "id": "bb1c7634-7cef-4d70-b9df-66a56125f80d",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:telefone",
+      "targets": [
+        ["id=j_idt24:telefone", "id"],
+        ["name=j_idt24:telefone", "name"],
+        ["css=#j_idt24\\3Atelefone", "css:finder"],
+        ["xpath=//input[@id='j_idt24:telefone']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc556eb5-2f58-40ff-9f8b-f89acae26c05",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:telefone",
+      "targets": [
+        ["id=j_idt24:telefone", "id"],
+        ["name=j_idt24:telefone", "name"],
+        ["css=#j_idt24\\3Atelefone", "css:finder"],
+        ["xpath=//input[@id='j_idt24:telefone']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]/td[2]/p/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "827b6878-34c7-4dab-9970-972f8e672b5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(4)", "css:finder"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[4]", "xpath:idRelative"],
+        ["xpath=//tr[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ef69f62-c0a7-4ddc-95e8-b2f8ceadbe6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17fe1b4-b9c6-4ed7-8f53-6d106ba1fa60",
+      "comment": "",
+      "command": "select",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [],
+      "value": "label=Acadêmico Graduação"
+    }, {
+      "id": "bc2c8ac9-c4fd-4a83-8180-65dd0f4c1d03",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt24:codigoArea",
+      "targets": [
+        ["id=j_idt24:codigoArea", "id"],
+        ["name=j_idt24:codigoArea", "name"],
+        ["css=#j_idt24\\3A codigoArea", "css:finder"],
+        ["xpath=//select[@id='j_idt24:codigoArea']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[5]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "064de87e-8d53-4430-9a3f-5ec8f10580cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_idt24\\3Agrid > tbody",
+      "targets": [
+        ["css=#j_idt24\\3Agrid > tbody", "css:finder"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cc60d83-50fc-40ad-85a6-e84635e6be6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_idt24:descricao",
+      "targets": [
+        ["id=j_idt24:descricao", "id"],
+        ["name=j_idt24:descricao", "name"],
+        ["css=#j_idt24\\3A descricao", "css:finder"],
+        ["xpath=//textarea[@id='j_idt24:descricao']", "xpath:attributes"],
+        ["xpath=//table[@id='j_idt24:grid']/tbody/tr[7]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "algo significante"
+    }, {
+      "id": "cee7f421-04d1-49bf-883b-6a0f380faa4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button-text:nth-child(1)",
+      "targets": [
+        ["css=.ui-button-text:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='j_idt24:j_idt85']/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b407c1e1-a1cb-4bf1-8bd7-5cd467a8f07b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li",
+      "targets": [
+        ["css=li", "css:finder"],
+        ["xpath=//div[@id='j_idt22']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'O Título deve ser informado.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b11f7df-37fa-42d6-83f3-44fd1295fcbb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ui-messages-error-summary",
+      "targets": [
+        ["css=.ui-messages-error-summary", "css:finder"],
+        ["xpath=//div[@id='j_idt22']/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'O Título deve ser informado.')]", "xpath:innerText"]
+      ],
+      "value": "Informações do Atendimento"
+    }]
+  }],
+  "suites": [{
+    "id": "c56fab3a-38fc-48c6-83a4-6b97d788b83c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a5d2d779-91f8-4e22-ade2-5cc8527aa2b1"]
+  }],
+  "urls": ["http://uniatendimento.unigranrio.edu.br/", "http://uniatendimento.unigranrio.edu.br/crm/paginaFaleConosco.jsf?"],
+  "plugins": []
+}
